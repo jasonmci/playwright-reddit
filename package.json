@@ -1,0 +1,21 @@
+{
+  "name": "playwright-reddit",
+  "version": "1.0.0",
+  "description": "Write some automated tests against reddit",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmci/playwright-reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonmci/playwright-reddit/issues"
+  },
+  "homepage": "https://github.com/jasonmci/playwright-reddit#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
