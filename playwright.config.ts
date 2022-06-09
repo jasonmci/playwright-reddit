@@ -48,6 +48,7 @@ const config: PlaywrightTestConfig = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
+        trace: 'retain-on-failure'
       },
     },
 
@@ -55,6 +56,7 @@ const config: PlaywrightTestConfig = {
       name: 'firefox',
       use: {
         ...devices['Desktop Firefox'],
+        trace: 'retain-on-failure'
       },
     },
 
@@ -62,6 +64,7 @@ const config: PlaywrightTestConfig = {
       name: 'webkit',
       use: {
         ...devices['Desktop Safari'],
+        trace: 'retain-on-failure'
       },
     },
 
