@@ -1,4 +1,4 @@
-import { test, expect, Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { NewReddit } from '../../pages/new_reddit';
 
 const PLACE = 'Tacoma';

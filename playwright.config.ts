@@ -48,7 +48,8 @@ const config: PlaywrightTestConfig = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        trace: 'retain-on-failure'
+        trace: 'retain-on-failure',
+        headless: true
       },
     },
 
