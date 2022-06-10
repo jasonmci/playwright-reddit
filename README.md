@@ -13,7 +13,7 @@ npm init playwright@latest -- --quiet --browser=chromium --browser=firefox --bro
 Then running the following command:
 
 ```bash
-npx playwright test
+npx playwright test .
 ```
 
 and to view the report
