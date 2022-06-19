@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { OldReddit } from '../../pages/old_reddit';
+import { OldReddit } from '../../../pages/old_reddit';
 
 const OLDPLACE = 'Seattle';
 

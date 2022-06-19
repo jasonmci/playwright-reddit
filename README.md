@@ -22,3 +22,5 @@ and to view the report
 npx playwright show-report
 ```
 
+## Next if you want to run and record steps for the test...
+
