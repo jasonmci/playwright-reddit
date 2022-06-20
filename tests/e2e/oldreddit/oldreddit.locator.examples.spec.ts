@@ -3,7 +3,6 @@ import { OldReddit } from '../../../pages/old_reddit';
 
 test.beforeEach(async ({ page }) => {
     await page.goto('http://old.reddit.com')
-    const oldPage = new OldReddit(page);
 });
 
 test.describe('old reddit element showcase', () => {
