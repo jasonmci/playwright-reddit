@@ -24,3 +24,6 @@ npx playwright show-report
 
 ## Next if you want to run and record steps for the test...
 
+```bash
+npx playwright codegen old.reddit.com
+```
