@@ -1,8 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { OldReddit } from '../../../pages/old_reddit';
 
-const OLDPLACE = 'Eugene';
-
 test.beforeEach(async ({ page }) => {
     await page.goto('http://old.reddit.com')
     const oldPage = new OldReddit(page);
